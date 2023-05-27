@@ -459,6 +459,68 @@ address {
     fill: #f4f4fd;
 }
 
+.footer-subscrible{
+    margin-left: 80px;
+}
+
+.footer-subscrible-text{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-subscrible-form{
+    display: flex;
+}
+
+.footer-subscrible-field{
+    margin-right: 24px;
+}
+
+.footer-subscrible-input{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.footer-subscrible-input::placeholder{
+    color: #FFFFFF;
+}
+
+.footer-subscrible-button{
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-subscrible-icon{
+    margin-left: 16px;
+}
+
 /* ================= /PORTFOLIO ================= */
 
 .filters {
