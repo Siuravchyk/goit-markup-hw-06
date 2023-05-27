@@ -431,13 +431,16 @@
                         </svg>
                     </div>
                 </div>
-                <label class="contact-form-field-wrapper">
-                    <span class="contact-form-field-desc">Comment</span>
-                    <textarea 
-                        name="user_massage" 
-                        class="contact-form-massage"
-                        placeholder="Text input"></textarea>
-                </label>
+                <div class="contact-form-textarea-field-wrapper">
+                    <label class="contact-form-field-wrapper" for="user-comment">
+                        <span class="contact-form-field-desc">Comment</span>
+                    </label>
+                        <textarea 
+                            id="user-comment"
+                            name="user-comment" 
+                            class="contact-form-massage"
+                            placeholder="Text input"></textarea>
+                </div>
                 <label class="contact-form-checkbox-wrapper">
                     <input class="contact-form-checkbox" type="checkbox" name="user_policy" required>
                     <svg class="contact-form-own-checkbox" width="16" height="16">

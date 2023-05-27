@@ -618,6 +618,10 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
     display: block;
 }
 
+.contact-form-textarea-field-wrapper{
+    margin-bottom: 16px;
+}
+
 .contact-form-field-wrapper,
 .contact-form-checkbox-wrapper{
     display: block;
