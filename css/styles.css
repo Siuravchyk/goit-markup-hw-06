@@ -606,6 +606,9 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
     margin-bottom: 16px;
 }
 
+.contact-form-input-field-wrapper{ 
+    margin-bottom: 8px;
+}
 .contact-form-field-desc{
     margin-bottom: 4px;
 }
@@ -621,12 +624,12 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
 }
 
 .contact-form-field-wrapper{
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     display: block;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8E8F99;
     
