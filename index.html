@@ -378,22 +378,23 @@
                     <use href="./images/icons.svg#icon-close-modal"></use>
                 </svg>
             </button>
-            <h3 class="contact-form-title">Leave your contacts and we will call you back</h3>
+            <p class="contact-form-title">Leave your contacts and we will call you back</p>
             <form class="contact-form">
-                <label class="contact-form-field-wrapper">
-                    <span class="contact-form-field-desc">Name</span>
-                    <span class="contact-form-input-wrapper">
-                        <input 
-                        type="text" 
-                        class="contact-form-input"
-                        name="user_first_name"
-                        required
-                        pattern="[a-zA-Zа-яА-ЯїЇєЄіІ']+"/>
-                        <svg class="contact-form-input-icon" width="18" height="24">
-                            <use href="./images/icons.svg#icon-person-icon"></use>
-                        </svg>
-                    </span>
-                </label>
+                <div class="contact-form-input-field-wrapper">
+                    <label class="contact-form-field-wrapper">
+                        <span class="contact-form-field-desc">Name</span>
+                        <span class="contact-form-input-wrapper">
+                            <input 
+                            type="text" 
+                            class="contact-form-input"
+                            name="user_first_name"
+                            required
+                            pattern="[a-zA-Zа-яА-ЯїЇєЄіІ']+"/>
+                            <svg class="contact-form-input-icon" width="18" height="24">
+                                <use href="./images/icons.svg#icon-person-icon"></use>
+                            </svg>
+                        </span>
+                    </label>
                 <label class="contact-form-field-wrapper">
                     <span class="contact-form-field-desc">Phone</span>
                     <span class="contact-form-input-wrapper">
@@ -428,7 +429,7 @@
                         name="user_massage" 
                         class="contact-form-massage"
                         placeholder="Text input"></textarea>
-                </label>
+                </label></div>
                 <label class="contact-form-checkbox-wrapper">
                     <input class="contact-form-checkbox" type="checkbox" name="user_policy" required>
                     <svg class="contact-form-own-checkbox" width="16" height="16">
